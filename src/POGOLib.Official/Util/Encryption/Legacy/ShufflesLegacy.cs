@@ -1,6 +1,14 @@
-﻿namespace POGOLib.Official.Util.Encryption
+using POGOLib.Official.Util.Hash;
+
+namespace POGOLib.Official.Util.Encryption.Legacy
 {
-    internal class Shuffles
+    /// <summary>
+    ///     This is the legacy <see cref="ShufflesLegacy"/> used by POGOLib in the <see cref="LegacyHasher"/>.
+    /// 
+    ///     Android version: 0.45.0
+    ///     IOS version: 1.15.0
+    /// </summary>
+    internal class ShufflesLegacy
     {
         public static void Shuffle2(uint[] vector)
         {
